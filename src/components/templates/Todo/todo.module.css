@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin-top: 20px;
     align-items: center;
+    text-align: start;
     gap: 20px;
 }
 

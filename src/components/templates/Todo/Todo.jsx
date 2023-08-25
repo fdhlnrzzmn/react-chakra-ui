@@ -11,6 +11,10 @@ const Todo = () => {
                             <Checkbox borderColor={"#518b78"} colorScheme='white'>Create Guest Experience mobile check-in</Checkbox>
                             <IconButton variant={'outline'} borderColor={"#eeb8b9"} color={'#eeb8b9'} size='sm' icon={<DeleteIcon />}></IconButton>
                         </div>
+                        <div className={style.todoList}>
+                            <Checkbox borderColor={"#518b78"} colorScheme='white'>Try to Sleep</Checkbox>
+                            <IconButton variant={'outline'} borderColor={"#eeb8b9"} color={'#eeb8b9'} size='sm' icon={<DeleteIcon />}></IconButton>
+                        </div>
                     </div>
                     <div className={style.todoInput}>
                         <hr />
