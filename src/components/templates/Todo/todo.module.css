@@ -1,10 +1,14 @@
 .todoList{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
     align-items: center;
     text-align: start;
     gap: 20px;
+}
+
+.todoList li{
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .todoCount{
