@@ -37,7 +37,8 @@ const Todo = () => {
     }
 
     return (
-                <Container color='white' bgColor={'#1a202d'} textAlign="center" pt={7} pb={7} pr={7} pl={7}>
+                <Container maxW={'100%'} color='white' bgColor={'#1a202d'}>
+                    <Container maxW={'2xl'} textAlign="center" mt={'24'} pt={7} pb={7} pr={7} pl={7}>
                     <div>
                         <Heading as='h2' size='lg' color={'white'} mb={10}>Chores ToDo List</Heading>
                         <Heading as='h2' size='xm' color={'red'} mb={10}>{message}</Heading>
@@ -67,6 +68,8 @@ const Todo = () => {
                         </form>
                     </div>
                 </Container>
+                </Container>
+                
     )
 }
 
